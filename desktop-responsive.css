@@ -1,0 +1,18 @@
+@media screen and (max-width: 1200px) {
+  html {
+    font-size: 9px;
+  }
+  .container {
+    width: 53rem;
+  }
+  .landing-img img {
+    width: 53rem;
+  }
+  .grid-container {
+    padding-top: 6rem;
+  }
+  .row {
+    width: 53rem;
+    height: 396px;
+  }
+}

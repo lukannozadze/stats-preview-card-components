@@ -1,0 +1,53 @@
+@media screen and (max-width: 375px) {
+  html {
+    font-size: 6px;
+  }
+
+  .landing-img img {
+    width: 50rem;
+    height: 200px;
+    margin-top: 40px;
+    grid-row: 1 / span 1;
+  }
+  .container {
+    width: 50rem;
+    margin-bottom: 50px;
+  }
+
+  .main-flex-container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .row {
+    width: 50rem;
+    height: 201px;
+    margin-top: 40px;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+  }
+  .companies {
+    grid-row: 1;
+    grid-column: 2;
+  }
+  .templates {
+    grid-row: 2;
+    grid-column: 2;
+  }
+  .queries {
+    grid-row: 3;
+    grid-column: 2;
+  }
+  .header-text {
+    text-indent: 2rem;
+  }
+  .word-grow-div {
+    text-indent: 13rem;
+  }
+  .paragraph-text {
+    line-height: 2.5rem;
+    font-size: 10px;
+  }
+}

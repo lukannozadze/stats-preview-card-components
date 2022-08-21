@@ -1,0 +1,11 @@
+@media screen and (max-width: 960px) {
+  html {
+    font-size: 7px;
+  }
+  .grid-container {
+    padding-bottom: 3rem;
+  }
+  .row {
+    height: 308px;
+  }
+}
